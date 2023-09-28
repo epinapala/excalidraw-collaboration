@@ -14,7 +14,7 @@
 #
 # Tweak the variables based on your project.
 #
-SHELL := /bin/bash
+SHELL := $(which bash)
 NOW_SHORT := $(shell date +%Y%m%d%H%M)
 
 PROJECT := excalidraw-collaboration
